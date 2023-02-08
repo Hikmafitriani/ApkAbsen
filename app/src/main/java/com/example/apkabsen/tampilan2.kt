@@ -5,14 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class HlmnHariTgl : AppCompatActivity() {
+class tampilan2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_hlmn_hari_tgl)
+        setContentView(R.layout.activity_tampilan2)
     }
 
-    fun hal (view: View){
-        val intent=Intent(this,tampilan3::class.java)
-        startActivity(intent)
+    fun hal2 (view: View){
+        val NEXT = Intent(this,HlmnHariTgl::class.java)
+        startActivity(NEXT)
     }
 }

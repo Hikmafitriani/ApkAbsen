@@ -8,6 +8,14 @@
         <entry key="..\:/ApkAbsenMirza/app/src/main/res/drawable/edtxt.xml" value="0.17" />
         <entry key="..\:/ApkAbsenMirza/app/src/main/res/layout/activity_hlmn_hari_tgl.xml" value="0.19010416666666666" />
         <entry key="..\:/ApkAbsenMirza/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/hikmaftryn03_/AppAbsensi/app/src/main/res/drawable/bg1.xml" value="0.1195" />
+        <entry key="..\:/hikmaftryn03_/AppAbsensi/app/src/main/res/drawable/bg2.xml" value="0.1195" />
+        <entry key="..\:/hikmaftryn03_/AppAbsensi/app/src/main/res/drawable/plus.xml" value="0.1195" />
+        <entry key="..\:/hikmaftryn03_/AppAbsensi/app/src/main/res/layout/activity_hlmn_hari_tgl.xml" value="0.20416666666666666" />
+        <entry key="..\:/hikmaftryn03_/AppAbsensi/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/hikmaftryn03_/AppAbsensi/app/src/main/res/layout/activity_tampilan1.xml" value="0.20416666666666666" />
+        <entry key="..\:/hikmaftryn03_/AppAbsensi/app/src/main/res/layout/activity_tampilan2.xml" value="0.19010416666666666" />
+        <entry key="..\:/hikmaftryn03_/AppAbsensi/app/src/main/res/layout/activity_tampilan3.xml" value="0.25" />
       </map>
     </option>
   </component>
@@ -16,5 +24,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.20416666666666666" />
+      </ProjectState>
+    </option>
   </component>
 </project>
