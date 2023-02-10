@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,110 +11,114 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="182dp"
-        android:layout_height="170dp"
+        android:layout_width="155dp"
+        android:layout_height="130dp"
         android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/bukuterbukaa_removebg_preview" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="349dp"
-        android:layout_height="382dp"
-        android:layout_marginBottom="108dp"
-        android:background="@drawable/edtxt"
+        android:id="@+id/constraintLayout2"
+        android:layout_width="356dp"
+        android:layout_height="366dp"
+        android:background="@drawable/bg1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.4"
-        tools:ignore="UnknownIdInLayout">
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.569">
 
         <EditText
-            android:id="@+id/ethari"
-            android:layout_width="294dp"
-            android:layout_height="60dp"
-            android:layout_marginTop="40dp"
-            android:background="@drawable/bgnama"
-            android:hint="Hari:"
-            android:textSize="20dp"
-            android:textStyle="italic"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.49"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <EditText
-            android:id="@+id/ettgl"
-            android:layout_width="294dp"
-            android:layout_height="60dp"
-            android:layout_marginTop="60dp"
-            android:background="@drawable/bgnama"
-            android:hint="Tanggal:"
-            android:textSize="20dp"
-            android:textStyle="italic"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.49"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/ethari"
-            tools:ignore="MissingConstraints" />
-
-        <EditText
-            android:id="@+id/etjam"
-            android:layout_width="294dp"
-            android:layout_height="60dp"
-            android:layout_marginTop="60dp"
-            android:background="@drawable/bgnama"
-            android:hint="Jam:"
-            android:textSize="20dp"
-            android:textStyle="italic"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.49"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/ettgl"
-            tools:ignore="MissingConstraints" />
-
-        <ImageView
-            android:id="@+id/imageView19"
-            android:layout_width="92dp"
-            android:layout_height="159dp"
-            app:srcCompat="@drawable/lampu_removebg_preview"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="299dp"
-            tools:layout_editor_absoluteY="294dp" />
-
-        <ImageView
-            android:id="@+id/imageView20"
-            android:layout_width="100dp"
-            android:layout_height="77dp"
-            android:layout_marginEnd="156dp"
+            android:id="@+id/hari"
+            android:layout_width="331dp"
+            android:layout_height="57dp"
+            android:background="@drawable/bg2"
+            android:ems="10"
+            android:hint="HARI"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.695"
-            app:srcCompat="@drawable/bunga_removebg_preview"
-            tools:ignore="DuplicateIds" />
+            app:layout_constraintVertical_bias="0.204" />
+
+        <EditText
+            android:id="@+id/tgl"
+            android:layout_width="331dp"
+            android:layout_height="57dp"
+            android:background="@drawable/bg2"
+            android:ems="10"
+            android:hint="TANGGAL"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hari"
+            app:layout_constraintVertical_bias="0.191" />
+
+        <EditText
+            android:id="@+id/jm"
+            android:layout_width="331dp"
+            android:layout_height="57dp"
+            android:background="@drawable/bg2"
+            android:ems="10"
+            android:hint="JAM"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tgl"
+            app:layout_constraintVertical_bias="0.383" />
 
         <ImageView
-            android:id="@+id/imageView20"
-            android:layout_width="81dp"
-            android:layout_height="139dp"
-            app:srcCompat="@drawable/bunga_removebg_preview"
-            tools:ignore="DuplicateIds,MissingConstraints"
-            tools:layout_editor_absoluteX="218dp"
-            tools:layout_editor_absoluteY="40dp" />
+            android:id="@+id/imageView15"
+            android:layout_width="78dp"
+            android:layout_height="113dp"
+            android:layout_marginEnd="192dp"
+            android:layout_marginBottom="84dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/bunga_removebg_preview" />
 
         <ImageView
-            android:id="@+id/imageView20"
-            android:layout_width="81dp"
-            android:layout_height="139dp"
-            app:srcCompat="@drawable/bunga_removebg_preview"
-            tools:ignore="DuplicateIds,MissingConstraints"
-            tools:layout_editor_absoluteY="44dp" />
+            android:id="@+id/imageView16"
+            android:layout_width="78dp"
+            android:layout_height="113dp"
+            android:layout_marginEnd="292dp"
+            android:layout_marginBottom="176dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/bunga_removebg_preview" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="78dp"
+            android:layout_height="113dp"
+            android:layout_marginEnd="88dp"
+            android:layout_marginBottom="192dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/bunga_removebg_preview" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="106dp"
+            android:layout_height="118dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="300dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/lampu_removebg_preview" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -240,10 +245,10 @@
 
     <ImageView
         android:id="@+id/imageView21"
-        android:layout_width="70dp"
-        android:layout_height="65dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="36dp"
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="32dp"
         android:background="@drawable/add"
         android:onClick="hal"
         app:layout_constraintBottom_toBottomOf="parent"
