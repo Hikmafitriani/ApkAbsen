@@ -17,7 +17,7 @@ class tampilan3 : AppCompatActivity() {
     }
 
     fun tamp3 (view: View){
-        val intent=Intent(this,tampilan2::class.java)
+        val intent=Intent(this,HlmnHariTgl::class.java)
         startActivity(intent)
     }
 }

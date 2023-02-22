@@ -12,7 +12,7 @@ class tampilan2 : AppCompatActivity() {
     }
 
     fun hal2 (view: View){
-        val NEXT = Intent(this,HlmnHariTgl::class.java)
+        val NEXT = Intent(this,tampilan3::class.java)
         startActivity(NEXT)
     }
 }
